@@ -45,8 +45,30 @@ Converts raw CSV data into a clean, formatted Excel report automatically.
 - Python 3.x
 - openpyxl (`pip install openpyxl`)
 
+## 🕷️ Web Scraper
+
+A flexible web scraper that collects links, headings, and paragraphs from any website and exports the data to CSV or JSON.
+
+### What it does
+- Works on any public website
+- Collects all links, headings and paragraphs
+- Exports results to CSV or JSON
+- Timestamps every output file automatically
+
+### How to use
+1. Open `web_scraper.py`
+2. Change `URL` to any website you want to scrape
+3. Set `OUTPUT_FORMAT` to `"csv"` or `"json"`
+4. Run the script
+
+### Requirements
+- Python 3.x
+- requests (`pip install requests`)
+- beautifulsoup4 (`pip install beautifulsoup4`)
+
+  
 ## 🚀 More scripts coming soon
-- Web Scraper
+
 
 ---
 
